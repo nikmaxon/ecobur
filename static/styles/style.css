@@ -127,7 +127,7 @@ header .right-header button:hover {
     padding-top: 80px;
 }
 
-.main-block .main-header{
+.main-block .main-header {
     padding-right: 100px;
 
 }
@@ -169,7 +169,7 @@ header .right-header button:hover {
     position: relative;
     text-align: left;
 
-    padding-left:16px;
+    padding-left: 16px;
 }
 
 /* Блок с кнопокой */
@@ -230,7 +230,7 @@ header .right-header button:hover {
     transition: 0.3s;
 }
 
-.main-block .btn_block button:hover {   
+.main-block .btn_block button:hover {
     background: linear-gradient(180deg, #F90 0%, #FF4D00 100%);
 }
 
@@ -249,8 +249,6 @@ header .right-header button:hover {
     top: -40px;
     right: 14px;
     transform: rotate(15deg)
-
-    
 }
 
 .main-block .kp_button:hover::after {
@@ -263,7 +261,7 @@ header .right-header button:hover {
     text-align: right;
 }
 
-.main-block .advantage-block .title  {
+.main-block .advantage-block .title {
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
@@ -319,4 +317,38 @@ header .right-header button:hover {
 
 .main-block .advantage-block .fourth-item {
     padding-left: 0px;
+}
+
+/* БЛОК 3 - ГАРАНТИЯ КАЧЕСТВА */
+
+.quality-garantee {
+    background: #F0F3F6;
+
+    height: 100%;
+
+}
+
+.quality-garantee .text-title {
+    color: #405060;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.quality-garantee .text-title h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.quality-garantee .text-title h2 span {
+    color: #29A8DF;
+    padding-bottom: 15px;
+}
+
+.quality-garantee .text-title p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
