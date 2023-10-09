@@ -435,3 +435,34 @@ header .right-header button:hover {
 
     transform: rotate(130deg);
 }
+
+/* Капли */
+.quality-garantee .flex-item {
+    position: relative;
+}
+
+.quality-garantee .left-drop::before {
+    content: url("./../images/left-drops.svg");
+
+    position: absolute;
+    left: -50px;
+    bottom: -40px;
+}
+
+.quality-garantee .drop-under-mark::before {
+    content: url("./../images/two_drops.svg");
+
+    z-index: 1;
+    position: absolute;
+    left: 16px;
+    top: 49px;
+}
+
+.quality-garantee .drop-downstairs::before {
+    content: url("./../images/two_drops.svg");
+
+    z-index: 1;
+    position: absolute;
+    left: 40px;
+    bottom: -30px;
+}
