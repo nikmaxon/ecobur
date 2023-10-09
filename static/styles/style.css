@@ -121,6 +121,8 @@ header .right-header button:hover {
     background-size: cover;
 
     max-height: 800px;
+
+    padding-bottom: 40px;
 }
 
 .main-block .container {
@@ -355,6 +357,7 @@ header .right-header button:hover {
     line-height: 24px;
 }
 
+/* 4 блока гарантий */
 .quality-garantee .flex-item {
     padding: 25px 25px 5px 0px;
     border-radius: 10px;
@@ -366,6 +369,7 @@ header .right-header button:hover {
 }
 
 .quality-garantee .flex-item {
+    position: relative;
     padding-left: 70px;
 }
 
@@ -399,3 +403,35 @@ header .right-header button:hover {
 }
 
 /* Визуальное наполнение каплями */
+.quality-garantee .aqua-img-left{
+    position: relative;
+}
+
+.quality-garantee .aqua-img-left::before {
+    content: url("./../images/aqua_img.png");
+    display: inline-block;
+
+    position: absolute;
+    left: -90px;
+    top: -50px;
+}
+
+.quality-garantee .aqua-img-right {
+    position: relative;
+}
+
+.quality-garantee .col-md-3 {
+    z-index: 0;
+}
+
+.quality-garantee .aqua-img-right::after {
+    z-index: -1;
+    content: url("./../images/aqua_img.png");
+    display: inline-block;
+
+    position: absolute;
+    right: -75px;
+    top: -85px;
+
+    transform: rotate(130deg);
+}
