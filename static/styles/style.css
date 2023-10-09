@@ -324,7 +324,7 @@ header .right-header button:hover {
 .quality-garantee {
     background: #F0F3F6;
 
-    height: 100%;
+    padding-bottom: 65px;
 
 }
 
@@ -339,11 +339,13 @@ header .right-header button:hover {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    letter-spacing: -1px;
+    padding-bottom: 17px;
 }
 
 .quality-garantee .text-title h2 span {
     color: #29A8DF;
-    padding-bottom: 15px;
 }
 
 .quality-garantee .text-title p {
@@ -352,3 +354,48 @@ header .right-header button:hover {
     font-weight: 400;
     line-height: 24px;
 }
+
+.quality-garantee .flex-item {
+    padding: 25px 25px 5px 0px;
+    border-radius: 10px;
+    background: #405060;
+    height: fit-content;
+    color: #FFF;
+
+    position: relative;
+}
+
+.quality-garantee .flex-item {
+    padding-left: 70px;
+}
+
+.quality-garantee .flex-item .title {
+    color: #FFB800;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+
+    letter-spacing: -1px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.quality-garantee .flex-item .title::before {
+    content: url("./../images/mark_2.svg");
+    display: inline-block;
+
+    position: absolute;
+    left: -50px;
+    top: 0;
+
+}
+
+.quality-garantee .flex-item p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/* Визуальное наполнение каплями */
