@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #272727;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Контейнер */
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 1194px;
+    }
+}
+
+/* Глобально по картинкам */
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+header {
+    max-height: 90;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+header .container .main-row {
+    display: flex;
+    align-items: center;
+}
+
+/* Левая часть header */
+header .logo img {
+    padding: auto;
+}
+
+header .container .main-row .left-header .logo-text {
+    padding-left: 0;
+}
+
+header .logo-text p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-bottom: 0px;
+}
+
+/* Правая часть header */
+header .socials {
+    padding-right: 15px;
+}
+
+header  .top-phone {
+    display: flex;
+}
+
+header .phone span {
+    text-transform: uppercase;
+    display: block;
+
+    text-align: left;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+header .phone a {
+    text-transform: uppercase;
+    display: flex;
+
+    color: #272727;
+    text-decoration: none;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .right-header button {
+    border-radius: 50px;
+    background: #60BD35;
+    border-color: #60BD35;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    padding: 13px 20px;
+
+}
+
+header .right-header button:hover {
+    background: #4B9926;
+    border-color: #4B9926;
+}
