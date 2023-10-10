@@ -23,6 +23,31 @@ img {
     max-width: 100%;
 }
 
+/* Задаем Cтандарт для oragne button */
+.orange_button {
+    flex-shrink: 0;
+    color: #FFF;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #FFB800 0%, #FF8A00 100%), linear-gradient(180deg, #FFB800 0%, #FF8A00 100%);
+
+    margin-top: 0px;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+
+    padding: 12px 30px;
+    box-shadow: 0px 4px 1px #D26500;
+
+    transition: 0.3s;
+}
+
+.orange_button:hover {
+    background: linear-gradient(180deg, #F90 0%, #FF4D00 100%);
+    color: #FFF;
+}
+
 header {
     max-height: 90;
     padding-top: 24px;
@@ -336,7 +361,8 @@ header .right-header button:hover {
     text-align: center;
 }
 
-.quality-garantee .text-title h2 {
+h2 {
+    text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -346,7 +372,7 @@ header .right-header button:hover {
     padding-bottom: 17px;
 }
 
-.quality-garantee .text-title h2 span {
+h2 span {
     color: #29A8DF;
 }
 
@@ -366,6 +392,7 @@ header .right-header button:hover {
     color: #FFF;
 
     position: relative;
+    height: 100%;
 }
 
 .quality-garantee .flex-item {
@@ -403,7 +430,7 @@ header .right-header button:hover {
 }
 
 /* Визуальное наполнение каплями */
-.quality-garantee .aqua-img-left{
+.quality-garantee .aqua-img-left {
     position: relative;
 }
 
@@ -465,4 +492,40 @@ header .right-header button:hover {
     position: absolute;
     left: 40px;
     bottom: -30px;
+}
+
+/* Блок 4 - Блок с видео */
+
+.video-block {
+    padding: 50px 0px;
+}
+
+.video-block h2 {
+    margin-bottom: 55px;
+}
+
+.video-block p {
+    color: #405060;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+
+    margin-bottom: 30px;
+}
+
+.video-block .orange_button {
+    margin-top: 15px;
+}
+
+.video-block video {
+    position: relative;
+
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('./../images/youtube_play_icon.svg'), lightgray 50% / cover no-repeat, #FFF;
+    padding-top: 56.25%;
+}
+
+.video-block .video iframe {
+    position: absolute;
 }
