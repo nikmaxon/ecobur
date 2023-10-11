@@ -23,6 +23,36 @@ img {
     max-width: 100%;
 }
 
+/* Типичные заголовки */
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    letter-spacing: -1px;
+    padding-bottom: 17px;
+
+    padding: 0px 130px;
+}
+
+h2 span {
+    color: #29A8DF;
+}
+
+/* Текст под h2 */
+.text-under-h2 {
+    text-align: center;
+    color: #405060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    padding: 0px 130px;
+}
+
 /* Задаем Cтандарт для oragne button */
 .orange_button {
     flex-shrink: 0;
@@ -95,6 +125,7 @@ header .phone span {
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+    color: #000;
 }
 
 header .phone a {
@@ -361,21 +392,6 @@ header .right-header button:hover {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-    letter-spacing: -1px;
-    padding-bottom: 17px;
-}
-
-h2 span {
-    color: #29A8DF;
-}
-
 .quality-garantee .text-title p {
     font-size: 16px;
     font-style: normal;
@@ -516,16 +532,129 @@ h2 span {
 .video-block .orange_button {
     margin-top: 15px;
 }
-
-.video-block video {
-    position: relative;
-
-    width: 100%;
-    border-radius: 10px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('./../images/youtube_play_icon.svg'), lightgray 50% / cover no-repeat, #FFF;
-    padding-top: 56.25%;
+/* Блок 5 - Блок Готовые решения */
+.ready-solution {
+    background: #F0F3F6;
+    padding: 50px 0px;
 }
 
-.video-block .video iframe {
+.ready-solution .card-item {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 28px 0px rgba(154, 161, 176, 0.20);
+    padding: 25px 30px;
+
+    height: 100%;
+    position: relative;
+
+    padding-bottom: 120px;
+}
+
+.ready-solution img {
+    border-radius: 10px;
+}
+
+.ready-solution .text-under-h2 {
+    margin-bottom: 30px;
+}
+
+.ready-solution .text-under-img {
+    padding: 15px 0px;
+    color: #405060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+span {
+    color: #29A8DF;
+}
+
+.ready-solution .list-block {
+    color: #66819C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ready-solution ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ready-solution ul li::before {
+    content: "—";
+    padding-right: 5px;
+}
+
+.ready-solution .price-button b {
+    color: #405060;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 152.344%;
+}
+
+.ready-solution .button {
+    margin: 15px auto;
+    align-items: center;
+}
+
+.ready-solution .orange_button {
+    margin: 0 auto;
+    display: block;
+
+    max-width: 300px;
+
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.ready-solution .price-button {
     position: absolute;
+    bottom: 30px;
+}
+
+.ready-solution .three ul {
+    margin-bottom: 30px;
+}
+
+.ready-solution .flex-box {
+    display: flex;
+}
+
+.ready-solution .flex-box .decor {
+    padding: 40px;
+    padding-left: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+.ready-solution .flex-box .item_1 {
+    max-width: 228px;
+    color: #405060;
+    letter-spacing: -1px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 152.344%;
+
+    margin-right: 30px;
+}
+
+.ready-solution .flex-box p {
+    color: #405060;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    max-width: 80%;
+}
+
+.ready-solution .flex-box .aqua-mark-block {
+
 }
