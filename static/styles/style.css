@@ -715,6 +715,10 @@ span {
     line-height: normal;
 }
 
+.sheet-price .text-under-h2 {
+    padding: 15px 0;
+}
+
 .sheet-price .column {
     border-radius: 3px;
     background: #405060;
