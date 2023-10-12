@@ -611,6 +611,8 @@ span {
 
     padding-left: 70px;
     padding-right: 70px;
+
+    margin-left: 15px;
 }
 
 .ready-solution .price-button {
@@ -696,4 +698,105 @@ span {
     position: absolute;
     left: -87px;
     top: -13px;
+}
+
+/* Блок таблица с ценами */
+.sheet-price {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sheet-price h2 {
+    padding: 0;
+    color: #405060;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sheet-price .column {
+    border-radius: 3px;
+    background: #405060;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sheet-price .column th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sheet-price .table-wrapper {
+    border-radius: 3px;
+}
+
+.sheet-price table {
+    border: 1px solid #D3DFEA;
+}
+
+.sheet-price td {
+    color: #4F5F6F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.sheet-price tbody tr:hover {
+    border: 1px solid #D3DFEA;
+    background: #F0F3F6;
+}
+
+.sheet-price .left-align {
+    text-align: left;
+}
+
+/* Голубая кнопка */
+.blue-button {
+    border-radius: 50px;
+    background: #29A8DF;
+
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    padding: 10px 45px;
+}
+
+.blue-button:hover {
+    color: #FFF;
+    background: #405060;
+}
+
+.sheet-price .button-width {
+    width: 25%;
+}
+
+.sheet-price .wrapper-btn {
+    text-align: center;
+
+    margin-top: 35px;
+}
+
+.sheet-price .orange_button {
+    padding-left: 45px;
+    padding-right: 45px;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
 }
