@@ -198,7 +198,7 @@ header .right-header button:hover {
     line-height: 1;
 
     max-width: 700px;
-    letter-spacing: 0px;
+    beforeф letter-spacing: 0px;
     margin-right: -80px;
 }
 
@@ -770,7 +770,6 @@ span {
     background: #29A8DF;
 
     color: #FFF;
-    font-family: Open Sans;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
@@ -803,4 +802,120 @@ span {
     font-style: normal;
     font-weight: 700;
     line-height: 21px;
+}
+
+
+/* Блок с услугами */
+
+.sheet-price .service-items {
+    text-align: center;
+}
+
+.h3 {
+    color: #405060;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.service-items h3 {
+    padding: 40px 0;
+}
+
+.service-items .row {
+    align-items: center;
+
+    padding: 0;
+}
+
+.service-items .decor {
+
+    border-radius: 10px;
+    background: #405060;
+
+    padding: 30px 5px;
+
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+
+    padding-left: 130px;
+    position: relative;
+    margin-right: 10px;
+
+    max-width: 24%;
+
+}
+
+.service-items .four {
+    margin-right: 0px;
+}
+
+.service-items .one {
+    margin-left: 15px;
+}
+
+.service-items .decor img {
+    position: absolute;
+    width: 123px;
+    left: 7px;
+    top: -18px;
+}
+
+
+.service-items .two img {
+    width: 116px;
+}
+
+.service-items .three img {
+    width: 114px;
+    top: -24px;
+}
+
+.service-items .four img {
+    width: 105px;
+
+    top: -24px;
+}
+
+.service-items .aqua-service-left::before {
+    content: url('./../images/aqua_img.png');
+    display: inline-block;
+    position: absolute;
+
+    transform: scale(-1, 1) rotate(140deg);
+    z-index: -1;
+
+    left: -100px;
+    top: -95px;
+}
+
+.service-items p {
+    position: relative;
+}
+
+.service-items .img-drops:before {
+    position: absolute;
+    content: url('./../images/two_drops.svg');
+    z-index: 3;
+
+    left: -120px;
+    top: 27px;
+}
+
+.service-items .aqua-service-right::before {
+    content: url('./../images/aqua_img.png');
+    display: inline-block;
+    position: absolute;
+
+    transform: scale(-1, 1) rotate(304deg);
+    z-index: -1;
+
+    left: 160px;
+    top: 7px;
 }
