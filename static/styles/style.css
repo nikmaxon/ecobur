@@ -198,7 +198,7 @@ header .right-header button:hover {
     line-height: 1;
 
     max-width: 700px;
-    beforeф letter-spacing: 0px;
+    letter-spacing: 0px;
     margin-right: -80px;
 }
 
@@ -918,4 +918,236 @@ span {
 
     left: 160px;
     top: 7px;
+}
+
+.plot-block {
+    margin-top: 133px;
+    margin-bottom: 15px;
+}
+
+.plot-block .left-part h2 {
+    text-align: left;
+    align-items: left;
+}
+
+.plot-block .left-part .text-under-h2 {
+    text-align: left;
+    align-items: left;
+}
+
+.plot-block .left-part h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plot-block .left-part p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.plot-block .equip-type {
+    padding: 35px 20px;
+    border-radius: 10px;
+    background: #F0F3F6;
+
+    height: 100%;
+}
+
+.plot-block .equip-type img {
+    padding: 32px 45px;
+}
+
+.plot-block .equip-type p {
+    color: #405060;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 152.344%;
+}
+
+
+.plot-block .equip-type .features p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 152.344%;
+
+    text-align: left;
+    border-radius: 5px 5px 0px 0px;
+    background: #405060;
+
+    max-width: fit-content;
+    padding: 1px 22px;
+
+    margin-bottom: 0;
+}
+
+.plot-block .equip-type .features {
+    border-width: 0px 0px 4px 0px;
+    border-style: solid;
+    border-color: #405060;
+    ;
+}
+
+.plot-block .features-list {
+    display: flex;
+    margin-top: 24px;
+
+    color: #66819C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+
+    width: fit-content;
+}
+
+.plot-block .features-list p {
+    line-height: 17px;
+}
+
+.plot-block .features-list .left {
+    justify-content: left;
+    text-align: left;
+}
+
+.plot-block .features-list .right {
+    justify-content: right;
+    text-align: right;
+}
+
+.plot-block .equip-type .uas {
+    padding: 90px 45px;
+}
+
+/* Правая часть */
+.plot-block .right-part {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #29A8DF 3.49%, #008DD2 32.63%, #405060 75.44%);
+    position: relative;
+}
+
+.plot-block .right-part img {
+    position: absolute;
+
+    width: 410px;
+    top: -100px;
+
+}
+
+.plot-block .right-part .content {
+    margin-top: 180px;
+    padding: 42px 20px;
+    text-align: center;
+}
+
+.right-part .content h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 75% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.right-part .content h2 span {
+    color: #50C9F2;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+
+.right-part .content p {
+
+    padding: 20px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+
+    margin-bottom: 0;
+}
+
+.right-part .content ul {
+    list-style: none;
+    text-align: left;
+
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    padding: 20px 60px;
+}
+
+.right-part .content li::before {
+    content: url("./../images/Tilda_Icons_27bu_18.svg");
+    display: inline-block;
+
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+
+.right-part .content li {
+    margin-bottom: 15px;
+    position: relative;
+    text-align: left;
+
+    padding-left: 16px;
+}
+
+.right-part .content input {
+    border-radius: 50px;
+    border: 1px solid #405060;
+    background: #FFF;
+
+    min-width: 270px;
+    min-height: 48px;
+}
+
+.right-part .content input::placeholder {
+    padding: 15px 18px;
+
+    color: #405060;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.right-part .content button {
+    margin-top: 15px;
+}
+
+.right-part .content .under__button {
+
+    padding: 15px 60px;
+    color: #FFF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+
+}
+
+.right-part .content .under__button a {
+    color: #FFF;
 }
