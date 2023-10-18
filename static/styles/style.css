@@ -1155,3 +1155,133 @@ span {
 .right-part .content .under__button a {
     color: #FFF;
 }
+
+/* Блок с отзывами */
+.reviews-block {
+    background: #F0F3F6;
+    padding-top: 44px;
+    padding-bottom: 66px;
+}
+
+.reviews-block .row h2 {
+    text-align: left;
+    padding: 0;
+
+    color: #405060;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.reviews-block .under-header {
+    color: #405060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews-block .row .reviews {
+    position: relative;
+
+    color: #FF8A00;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.reviews-block .reviews::before {
+    position: absolute;
+    content: url('./../images/youtube_img.svg');
+
+    left: -70px;
+}
+
+.reviews-videos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.reviews-videos .review__item {
+    width: 370px;
+
+    margin: 15px;
+
+}
+
+.reviews-videos .review__item .fansybox {
+    position: relative;
+}
+
+.reviews-videos .review__item .fansybox::before {
+    position: absolute;
+    content: url('./../images/youtube_img.svg');
+
+    top: -15px;
+    left: 150px;
+}
+
+.reviews-videos .review__item .under-video-link {
+    padding: 20px 0;
+}
+
+.review__item .under-video-link a {
+    text-decoration: none;
+    color: #405060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.review__item .under-video-link a:hover {
+    color: #29A8DF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+
+
+.review__item .left-list {
+    line-height: 10px;
+
+    padding-left: 15px;
+}
+
+.review__item .price-block {
+    border-radius: 50px;
+    background: #29A8DF;
+
+    padding: 15px 20px;
+}
+
+.review__item .price-block p {
+    margin-bottom: 0;
+}
+
+.review__item .price-block .text {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding: 0;
+}
+
+.review__item .price-block .price {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+
+    padding: 0;
+}
