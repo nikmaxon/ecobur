@@ -1259,7 +1259,8 @@ span {
     border-radius: 50px;
     background: #29A8DF;
 
-    padding: 15px 20px;
+    padding: 10px 20px;
+    max-height: 30%;
 }
 
 .review__item .price-block p {
